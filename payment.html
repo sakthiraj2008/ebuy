@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Payment</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="center">
+
+<div class="card">
+  <h2>GPay Payment</h2>
+  <p class="price">₹999</p>
+  <img src="gpay-qr.png" class="qr">
+  <p>UPI ID: yourupi@bank</p>
+
+  <input type="file" id="proof">
+  <button onclick="submitProof()">I Have Paid</button>
+</div>
+
+<script src="js/supabase.js"></script>
+<script src="js/payment.js"></script>
+</body>
+</html>
